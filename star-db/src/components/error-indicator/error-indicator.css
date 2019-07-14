@@ -1,14 +1,15 @@
 .error-indicator {
-	max-width: 300px;
-	margin: auto;
-	text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #c78f22;
 }
 
-.boom {
-	font-size: 20px;
+.error-indicator img {
+  margin-bottom: 1rem;
 }
 
-.error-indicator span {
-	display: block;
-	color: orange;
+.error-indicator .boom {
+  font-size: 1.7rem;
 }
